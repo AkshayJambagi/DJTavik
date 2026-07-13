@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="60" height="60">
+  <g fill="none" stroke="#ffc93c" stroke-width="1">
+    <!-- diamond lattice -->
+    <path d="M30 0 L60 30 L30 60 L0 30 Z"/>
+    <path d="M0 0 L30 30 L0 60"/>
+    <path d="M60 0 L30 30 L60 60"/>
+    <!-- floret at intersections -->
+    <circle cx="30" cy="30" r="6"/>
+    <circle cx="0" cy="0" r="4"/>
+    <circle cx="60" cy="0" r="4"/>
+    <circle cx="0" cy="60" r="4"/>
+    <circle cx="60" cy="60" r="4"/>
+    <circle cx="30" cy="0" r="3"/>
+    <circle cx="30" cy="60" r="3"/>
+    <circle cx="0" cy="30" r="3"/>
+    <circle cx="60" cy="30" r="3"/>
+  </g>
+  <circle cx="30" cy="30" r="1.6" fill="#ffc93c"/>
+</svg>

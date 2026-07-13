@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 11 304 178" role="img" aria-label="DJ Tavik logo: round goggles with turntable lenses">
+  <defs>
+    <linearGradient id="warm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff6b00"/>
+      <stop offset="0.5" stop-color="#e5006d"/>
+      <stop offset="1" stop-color="#ffc93c"/>
+    </linearGradient>
+    <linearGradient id="cool" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00c2a8"/>
+      <stop offset="1" stop-color="#6a0dad"/>
+    </linearGradient>
+    <radialGradient id="platter" cx="0.5" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#1a0730"/>
+      <stop offset="1" stop-color="#05020a"/>
+    </radialGradient>
+  </defs>
+
+  <!-- temple arms -->
+  <g stroke="url(#warm)" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M40 66 L12 56"/>
+    <path d="M240 66 L268 56"/>
+  </g>
+
+  <!-- ears -->
+  <g fill="none" stroke="url(#warm)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- left ear -->
+    <path d="M16 54 C1 58 1 96 20 92"/>
+    <path d="M17 64 C8 67 8 84 18 82" stroke-width="3"/>
+    <!-- right ear -->
+    <path d="M264 54 C279 58 279 96 260 92"/>
+    <path d="M263 64 C272 67 272 84 262 82" stroke-width="3"/>
+  </g>
+
+  <!-- bridge -->
+  <path d="M120 70 Q140 50 160 70" fill="none" stroke="url(#warm)" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- nose -->
+  <g fill="none" stroke="url(#warm)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- bridge to left nostril -->
+    <path d="M140 62 C132 96 122 132 121 152 C120 167 129 176 141 170"/>
+    <!-- bridge to right nostril -->
+    <path d="M140 62 C148 96 158 132 159 152 C160 167 151 176 139 170"/>
+    <!-- nostril wings -->
+    <path d="M121 152 C114 156 113 166 122 168"/>
+    <path d="M159 152 C166 156 167 166 158 168"/>
+  </g>
+
+  <!-- ===== LEFT TURNTABLE LENS ===== -->
+  <g>
+    <circle cx="82" cy="72" r="46" fill="url(#platter)" stroke="url(#warm)" stroke-width="6"/>
+    <!-- record grooves -->
+    <g fill="none" stroke="#ffc93c" stroke-width="1" opacity="0.35">
+      <circle cx="82" cy="72" r="38"/>
+      <circle cx="82" cy="72" r="32"/>
+      <circle cx="82" cy="72" r="26"/>
+      <circle cx="82" cy="72" r="20"/>
+    </g>
+    <!-- center label -->
+    <circle cx="82" cy="72" r="15" fill="url(#warm)"/>
+    <circle cx="82" cy="72" r="15" fill="none" stroke="#ffe9a8" stroke-width="1.2"/>
+    <!-- spindle -->
+    <circle cx="82" cy="72" r="2.6" fill="#05020a"/>
+    <!-- tonearm -->
+    <g>
+      <circle cx="48" cy="40" r="5" fill="#ffc93c"/>
+      <path d="M48 40 L74 66" stroke="#e8e8ef" stroke-width="3.4" stroke-linecap="round"/>
+      <rect x="69" y="61" width="12" height="7" rx="2" transform="rotate(45 75 64)" fill="#00c2a8"/>
+    </g>
+  </g>
+
+  <!-- ===== RIGHT TURNTABLE LENS ===== -->
+  <g>
+    <circle cx="198" cy="72" r="46" fill="url(#platter)" stroke="url(#warm)" stroke-width="6"/>
+    <!-- record grooves -->
+    <g fill="none" stroke="#ffc93c" stroke-width="1" opacity="0.35">
+      <circle cx="198" cy="72" r="38"/>
+      <circle cx="198" cy="72" r="32"/>
+      <circle cx="198" cy="72" r="26"/>
+      <circle cx="198" cy="72" r="20"/>
+    </g>
+    <!-- center label -->
+    <circle cx="198" cy="72" r="15" fill="url(#cool)"/>
+    <circle cx="198" cy="72" r="15" fill="none" stroke="#ffe9a8" stroke-width="1.2"/>
+    <!-- spindle -->
+    <circle cx="198" cy="72" r="2.6" fill="#05020a"/>
+    <!-- tonearm -->
+    <g>
+      <circle cx="232" cy="40" r="5" fill="#ffc93c"/>
+      <path d="M232 40 L206 66" stroke="#e8e8ef" stroke-width="3.4" stroke-linecap="round"/>
+      <rect x="199" y="61" width="12" height="7" rx="2" transform="rotate(-45 205 64)" fill="#e5006d"/>
+    </g>
+  </g>
+</svg>

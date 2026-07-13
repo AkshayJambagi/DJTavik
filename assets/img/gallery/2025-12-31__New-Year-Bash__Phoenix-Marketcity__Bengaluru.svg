@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" role="img" aria-label="Neon night placeholder">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="600" y2="700" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#00c2a8"/><stop offset="1" stop-color="#6a0dad"/></linearGradient></defs>
+  <rect width="600" height="700" fill="url(#g)"/>
+  <g transform="translate(300 350)" fill="none" stroke="#ff3d8b" stroke-width="2" opacity="0.5"><circle r="190"/><circle r="130"/><circle r="70"/></g>
+  <text x="300" y="362" font-family="Arial" font-size="24" letter-spacing="4" fill="#0a0410" text-anchor="middle">NEON NIGHT</text>
+</svg>

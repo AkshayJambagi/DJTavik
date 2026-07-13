@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 620" role="img" aria-label="Festival stage placeholder">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="600" y2="620" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffc93c"/><stop offset="1" stop-color="#ff6b00"/></linearGradient></defs>
+  <rect width="600" height="620" fill="url(#g)"/>
+  <g transform="translate(300 310)" fill="none" stroke="#3a0018" stroke-width="3" opacity="0.4"><circle r="180"/><circle r="120"/><circle r="60"/></g>
+  <text x="300" y="322" font-family="Arial" font-size="24" letter-spacing="4" fill="#3a0018" text-anchor="middle">FESTIVAL</text>
+</svg>

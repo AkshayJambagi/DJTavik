@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 660" role="img" aria-label="Rooftop party placeholder">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="600" y2="660" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffc93c"/><stop offset="1" stop-color="#e5006d"/></linearGradient></defs>
+  <rect width="600" height="660" fill="url(#g)"/>
+  <g transform="translate(300 330)" fill="none" stroke="#1a0330" stroke-width="3" opacity="0.35"><circle r="185"/><circle r="125"/><circle r="65"/></g>
+  <text x="300" y="342" font-family="Arial" font-size="24" letter-spacing="4" fill="#1a0330" text-anchor="middle">ROOFTOP</text>
+</svg>
